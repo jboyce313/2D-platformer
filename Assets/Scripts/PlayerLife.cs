@@ -26,6 +26,8 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
+        Score.scoreInt -= Score.cherriesCollectedOnCurrentLevel;
+        Score.cherriesCollectedOnCurrentLevel = 0;
         deathSoundEffect.Play();
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");

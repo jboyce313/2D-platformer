@@ -5,5 +5,6 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public static int scoreInt = 0;
+    public static int scoreInt;
+    public static int cherriesCollectedOnCurrentLevel;
 }
