@@ -7,4 +7,5 @@ public class Score : MonoBehaviour
 {
     public static int scoreInt;
     public static int cherriesCollectedOnCurrentLevel;
+    public static int lives = 3;
 }

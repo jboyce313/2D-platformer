@@ -21,7 +21,8 @@ public class Finish : MonoBehaviour
         {
             finishSound.Play();
             levelCompleted = true;
-            // call CompleteLevel() after 2 seconds
+            collision.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            collision.gameObject.GetComponent<Animator>().SetTrigger("finishLevel");
             Invoke("CompleteLevel", 2f);
         }
     }

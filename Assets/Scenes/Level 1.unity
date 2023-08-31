@@ -64215,6 +64215,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 736413816eaad4bb59375012c2281590, type: 3}
+--- !u!114 &5328812437461462021 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1738802090901679070, guid: 736413816eaad4bb59375012c2281590, type: 3}
+  m_PrefabInstance: {fileID: 5328812437461462020}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5771208412492619460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64227,6 +64238,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 35fbad8cdde724f11ba6481f1e64af71, type: 3}
+    - target: {fileID: 1301465032278101155, guid: a5cf15778c1c44cfe9fcc8ea8398195c, type: 3}
+      propertyPath: livesText
+      value: 
+      objectReference: {fileID: 5328812437461462021}
     - target: {fileID: 3507259110181669179, guid: a5cf15778c1c44cfe9fcc8ea8398195c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.53
