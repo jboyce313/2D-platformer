@@ -121,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 5.2093186}
+  m_Offset: {x: 0.03280449, y: 5.2093186}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 10.112592}
+  m_Size: {x: 1.303175, y: 10.112592}
   m_EdgeRadius: 0
 --- !u!50 &8712954013599158969
 Rigidbody2D:
@@ -174,8 +174,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fanForce: 10
-  fanSoundEffect: {fileID: 7850326348579358330}
-  waitTime: 0.3
 --- !u!95 &6448167336749014539
 Animator:
   serializedVersion: 5
@@ -218,7 +216,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 15
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
